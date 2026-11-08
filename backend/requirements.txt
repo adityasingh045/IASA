@@ -1,0 +1,16 @@
+# IASA backend dependencies
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+sqlalchemy==2.0.35
+alembic==1.13.1
+httpx==0.27.2
+websockets==13.1
+python-multipart==0.0.9
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-slugify==8.0.0
+structlog==24.4.0
+aiosqlite==0.20.0   # for SQLite async in dev/test; use asyncpg in production
+# asyncpg==0.29.0   # PostgreSQL driver — install in env with libpq-dev
